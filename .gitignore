@@ -2,6 +2,7 @@ out
 .idea
 *.class
 rars.iml
+*.asm
 
 # Build products
 build
