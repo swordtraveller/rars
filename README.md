@@ -5,6 +5,13 @@ RARS, the RISC-V Assembler, Simulator, and Runtime, will assemble and simulate
 the execution of RISC-V assembly language programs. Its primary goal is to be
 an effective development environment for people getting started with RISC-V. 
 
+## 编译
+
+原作者在Download小节中注明：`git clone https://github.com/TheThirdOne/rars --recursive`，请使用该命令克隆仓库来用于构建、运行。  
+这十分重要：因为该项目下含有`.gitmodules`，说明使用了git的`submodule`功能。  
+如果不带`--recursive`参数，将会造成jsoftfloat目录代码缺失而无法编译。  
+运行入口：src/rars/Launch.java  
+
 ## Features
 
   - RISC-V IMFDN Base (riscv32 and riscv64)
