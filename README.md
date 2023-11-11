@@ -11,6 +11,7 @@ an effective development environment for people getting started with RISC-V.
 这十分重要：因为该项目下含有`.gitmodules`，说明使用了git的`submodule`功能。  
 如果不带`--recursive`参数，将会造成jsoftfloat目录代码缺失而无法编译。  
 运行入口：src/rars/Launch.java  
+直接运行原仓库的jar包生成的界面中Message等界面字号在高分辨率显示器上可能变得极为微小无法辨识且在设置中找不到修改项，但自己运行项目则字号合适，暂不清楚原因。因此fork了该项目用于解决该问题及用于后续自己定制。  
 
 ## Features
 
