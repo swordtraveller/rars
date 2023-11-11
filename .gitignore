@@ -1,6 +1,7 @@
 out
 .idea
 *.class
+rars.iml
 
 # Build products
 build
